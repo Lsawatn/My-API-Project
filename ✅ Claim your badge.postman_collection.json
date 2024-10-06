@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "1042cb84-9769-43f1-bb9c-0654c1386e26",
+		"name": "✅ Claim your badge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37237983",
+		"_collection_link": "https://www.postman.com/warped-escape-970582/workspace/my-workspace/collection/37237983-1042cb84-9769-43f1-bb9c-0654c1386e26?action=share&source=collection_link&creator=37237983"
+	},
+	"item": [
+		{
+			"name": "Get instructions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{mockURL}}/instructions",
+					"host": [
+						"{{mockURL}}"
+					],
+					"path": [
+						"instructions"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "mockURL",
+			"value": "https://c18618af-db4c-497d-bb7b-fdd46e9dd7f9.mock.pstmn.io"
+		}
+	]
+}
